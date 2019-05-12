@@ -1,6 +1,8 @@
 #!/bin/bash
 
 # Run as Root
+source utils.sh
+run_as_root
 
 ## 1. 安裝 Passenger PGP key 和 HTTPS support for package manager
 apt install -y dirmngr gnupg

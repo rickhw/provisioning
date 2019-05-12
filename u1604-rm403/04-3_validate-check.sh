@@ -1,6 +1,8 @@
 #!/bin/bash
 
 # Run as Root
+source utils.sh
+run_as_root
 
 ## Restart nginx
 systemctl restart nginx

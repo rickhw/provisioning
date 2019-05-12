@@ -1,6 +1,9 @@
 #!/bin/bash
 
 # Run as Root
+source utils.sh
+run_as_root
+
 
 ## 建立 Redmine 使用者，資料放在 `/data/redmine`
 adduser --system \
